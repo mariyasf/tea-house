@@ -15,7 +15,7 @@
     font-size: 20px;
 }
 
-button:hover {
+.primary-btn:hover {
     background: linear-gradient(270deg, rgb(39, 105, 11) 0%, #afff38 100%);
 }
 
@@ -159,6 +159,7 @@ button:hover {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
+    /* max-height: 4400px; */
 }
 
 .fresh-div {
@@ -240,4 +241,137 @@ button:hover {
     font-weight: 500;
     line-height: 28px;
     padding-bottom: 30px;
+}
+
+/* super-clint */
+
+.super-clint {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    gap: 20px;
+
+}
+
+.super-clint-content {
+    background-image: url('../images/bg_cup.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-left: 70px;
+    padding-top: 177px;
+}
+
+.super-clint-content>h2 {
+    color: var(--Dark-07, #F4F4F4);
+    font-size: 45px;
+    max-width: 400px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+
+.super-clint-content>p {
+    color: var(--Dark-07, #F4F4F4);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 500px;
+    padding-bottom: 30px;
+}
+
+.super-clint-content button {
+    border-radius: 8px;
+    background: #FFF;
+    width: 139px;
+    height: 56px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 177px;
+}
+
+.super-clint-content>button>span {
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    background-clip: text;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.super-clint-comment {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    /* align-items: center; */
+
+}
+
+.clint-cmnt {
+    width: 433px;
+    border-radius: 8px;
+    text-align: left;
+    padding: 50px;
+    position: relative;
+}
+
+.clint-cmnt>img {
+    position: absolute;
+    left: -25px;
+    top: -25px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.circle {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+.clint-cmnt-section h3 {
+    color: var(--Dark-01, #1C1C1C);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-top: 20px;
+    /* padding-bottom: 10px; */
+}
+
+.clint-cmnt-section p {
+    max-width: 340px;
+}
+
+.clint-cmnt-section span {
+    color: #5D5A6F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.clint-cmnt-div1 {
+    position: absolute;
+    top: 32%;
+    right: 140px;
+    left: -120px;
+    z-index: 15;
+    background-color: aliceblue;
+}
+
+.clint-cmnt-div2 {
+    bottom: 30px;
+    right: 60px;
+    /* position: fixed; */
+    background-color: aliceblue;
+    opacity: 0.3;
+}
+
+.clint-cmnt-div3 {
+    top: 30px;
+    right: 60px;
+    bottom: 0;
+    background-color: aliceblue;
+    opacity: 0.3;
+
 }
