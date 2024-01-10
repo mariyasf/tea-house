@@ -375,3 +375,135 @@
     opacity: 0.3;
 
 }
+
+/* news-event */
+.news-event {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.news-event p {
+    padding-top: 20px;
+    padding-left: 180px;
+    max-width: 900px;
+}
+
+.event-content {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.event {
+    padding: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--Dark-05, #D2D2D2);
+}
+
+.event * {
+    padding-top: 10px;
+}
+
+.event span {
+    color: var(--Dark-03, #777);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.event .event-title {
+    color: var(--Dark-01, #1C1C1C);
+    font-size: 20px;
+    font-weight: 800;
+    max-width: 225px;
+}
+
+.event>h4 {
+    color: var(--Dark-01, #1C1C1C);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* footer-section */
+
+.footer-section {
+    margin-top: 120px;
+
+    max-height: 746px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
+}
+
+.footer-section-upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ready {
+    display: flex;
+}
+
+.ready p {
+    padding-top: 30px;
+}
+
+.ready * {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer-section-middle {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #afff38; */
+}
+
+.footer-section-middle {
+    padding-top: 50px;
+    list-style: none;
+}
+
+.footer-section-middle div h2 {
+    color: var(--Dark-01, #1C1C1C);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-section-middle div ul * {
+    list-style: none;
+    padding-top: 18px;
+    color: var(--Dark-02, #494949);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-section {
+    max-width: 216px;
+}
+
+
+input {
+    margin-top: 18px;
+    border-style: none;
+    background-color: inherit;
+    border-bottom: 2px solid #494949;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 215px;
+}
+
+.social-media {
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding-right: 110px;
+}
+
+.footer-bottom {
+    padding: 50px auto;
+    display: flex;
+    justify-content: center;
+}
